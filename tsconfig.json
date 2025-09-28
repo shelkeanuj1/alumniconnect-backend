@@ -9,6 +9,15 @@
     "strict": true,
     "outDir": "./dist"
   },
-  "include": ["./"],
-  "exclude": ["node_modules"]
+  "include": [
+    "server.ts",
+    "controllers",
+    "routes",
+    "models",
+    "config"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
